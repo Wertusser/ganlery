@@ -21,7 +21,7 @@ class Artwork extends React.Component {
   }
 
   render() {
-    const art = {backgroundImage: 'url(' + this.state.url + ')'}
+    const art = {content: 'url(' + this.state.url + ')'}
     return (
     <div>
       <div className="art" style={art} alt={"Artwork " + this.state.description}></div>
